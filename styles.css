@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #ffffff;
 }
 
-nav {
+.toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,9 +21,38 @@ nav {
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
-  color: #ffffff;
 }
 
-i {
-  color: #ffffff;
+.headline {
+  height: 100vh;
+  background: #1c1a19;
+}
+
+.headline-primary {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 74px;
+}
+
+.headline-supporting {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.headline-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
