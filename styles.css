@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fff;
 }
 
 .toolbar {
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  font-family: "Roboto";
+  font-family: "Roboto", Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -25,11 +25,11 @@
 
 .headline {
   height: 100vh;
-  background: #1c1a19;
+  background: #1c1a19 url("images/Illustration.svg") no-repeat bottom right;
 }
 
 .headline-primary {
-  font-family: "Crete Round";
+  font-family: "Crete Round", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -40,7 +40,7 @@
 }
 
 .headline-supporting {
-  font-family: "Roboto";
+  font-family: "Roboto", Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -50,12 +50,13 @@
 }
 
 .headline-description {
-  font-family: "Poppins";
+  font-family: "Poppins", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
+
 .social-icons {
   display: flex;
   align-items: center;
