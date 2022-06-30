@@ -190,3 +190,37 @@
   padding: 0 12px;
   margin-top: 14px;
 }
+.about {
+  padding: 0 24px;
+  background: #1c1a19 url("images/about-bg.svg") no-repeat bottom right;
+}
+.about-title {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 120px;
+  margin-top: 120px;
+}
+.about-detail {
+  margin: 24px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.about-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  border: none;
+  background: #ff6b00;
+  margin-bottom: 210px;
+}
