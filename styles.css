@@ -24,8 +24,11 @@
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   background: #1c1a19 url("images/Illustration.svg") no-repeat bottom right;
+  padding: 0 24px;
 }
 
 .headline-primary {
@@ -36,7 +39,7 @@
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  padding-top: 74px;
+  padding-top: 120px;
 }
 
 .headline-supporting {
@@ -47,6 +50,7 @@
   line-height: 32px;
   align-items: center;
   color: #fff5e1;
+  padding: 12px 0;
 }
 
 .headline-description {
@@ -58,7 +62,9 @@
 }
 
 .social-icons {
+  list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+  padding: 12px 0;
 }
