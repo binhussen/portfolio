@@ -70,15 +70,16 @@
 }
 
 .works {
-  font-family: "Inter";
+  font-family: "Inter", Times, serif;
   font-style: normal;
   font-weight: 400;
   margin: 120px 0 0;
   padding: 0 24px;
   color: #091e42;
 }
+
 .works-title {
-  font-family: "Crete Round";
+  font-family: "Crete Round", Times, serif;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
@@ -86,23 +87,27 @@
   margin-bottom: 24px;
   color: #1c1a19;
 }
+
 .avatar {
   margin-top: 80px;
 }
+
 .works-supporting {
-  font-family: "Crete Round";
+  font-family: "Crete Round", Times, serif;
   font-style: normal;
   font-size: 32px;
   line-height: 44px;
   margin-top: 24px;
   color: #091e42;
 }
+
 .works-content {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
   margin-bottom: 12px;
 }
+
 .tags {
   list-style-type: none;
   display: flex;
@@ -111,6 +116,7 @@
   color: #091e42;
   margin-top: 12px;
 }
+
 .tag {
   font-weight: 500;
   font-size: 15px;
@@ -119,6 +125,7 @@
   padding: 10px 12px;
   border: 1px solid #8993a4;
 }
+
 .btn {
   border: none;
   font-weight: 700;
@@ -128,21 +135,24 @@
   padding: 12px;
   background: #ff6b00;
 }
+
 .card-works {
-  font-family: "Inter";
+  font-family: "Inter", Times, serif;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-row: auto;
   gap: 24px;
   padding: 0 24px;
   margin-top: 24px;
 }
+
 .card {
   background: url("images/card-bg.svg") no-repeat;
   width: 327px;
   height: 386px;
   margin-bottom: 24px;
 }
+
 .card-content {
   display: flex;
   flex-direction: column;
@@ -151,8 +161,9 @@
   margin-top: 76px;
   padding: 8px 16px;
 }
+
 .card-title {
-  font-family: "Crete Round";
+  font-family: "Crete Round", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -164,14 +175,14 @@
   font-size: 16px;
   line-height: 24px;
 }
+
 .card-tags {
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding: 0px;
   gap: 12px;
-  list-style-type: none;
 }
+
 .card-tag {
   font-weight: 500;
   font-size: 15px;
@@ -179,6 +190,7 @@
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
 }
+
 .btn-action {
   font-weight: 700;
   font-size: 17px;
@@ -190,12 +202,14 @@
   padding: 0 12px;
   margin-top: 14px;
 }
+
 .about {
   padding: 0 24px;
   background: #1c1a19 url("images/about-bg.svg") no-repeat bottom right;
 }
+
 .about-title {
-  font-family: "Crete Round";
+  font-family: "Crete Round", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -205,16 +219,18 @@
   padding-top: 120px;
   margin-top: 120px;
 }
+
 .about-detail {
   margin: 24px 0;
-  font-family: "Inter";
+  font-family: "Inter", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
+
 .about-btn {
-  font-family: "Inter";
+  font-family: "Inter", Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -224,34 +240,36 @@
   background: #ff6b00;
   margin-bottom: 210px;
 }
+
 .skills {
   background: #1c1a19;
   padding-top: 96px;
 }
+
 .skill {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 12px;
+  padding: 32px 12px;
   gap: 12px;
-  padding: 32px 0;
 }
+
 .skill-title {
-  font-family: "InaiMathi";
-  font-style: normal;
+  font-family: "InaiMathi", Times, serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
+
 .skill-detail {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0 12px;
   gap: 8px;
-  font-family: "Inter";
+  font-family: "Inter", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
