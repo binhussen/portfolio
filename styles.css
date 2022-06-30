@@ -224,3 +224,36 @@
   background: #ff6b00;
   margin-bottom: 210px;
 }
+.skills {
+  background: #1c1a19;
+  padding-top: 96px;
+}
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  padding: 32px 0;
+}
+.skill-title {
+  font-family: "InaiMathi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+.skill-detail {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
