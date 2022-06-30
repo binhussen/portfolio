@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 0 24px;
+  background: #3c3a39;
+}
+
+.logo {
+  font-family: "Roboto", Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #1c1a19 url("images/Illustration.svg") no-repeat bottom right;
+  padding: 0 24px;
+}
+
+.headline-primary {
+  font-family: "Crete Round", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 120px;
+}
+
+.headline-supporting {
+  font-family: "Roboto", Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  color: #fff5e1;
+  padding: 12px 0;
+}
+
+.headline-description {
+  font-family: "Poppins", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 0;
+}
