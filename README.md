@@ -51,3 +51,5 @@ Give a ⭐️ if you like this project!
 - Microverse Curriculum
 
 ## 📝 License
+
+This project is [MIT](https://github.com/binhussen/portfolio/blob/main/LICENSE.md) licensed.
