@@ -52,6 +52,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  float: left;
+}
+.social-icon-item {
+  flat: left;
 }
 
 .works {
@@ -91,12 +95,13 @@
 
 .tags {
   list-style-type: none;
-  display: flex;
-  gap: 12px;
+  /* display: flex;
+  gap: 12px; */
   margin-bottom: 12px;
 }
 
 .tag {
+  float: left;
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
