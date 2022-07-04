@@ -148,11 +148,13 @@
 
 .card-tags {
   list-style-type: none;
-  display: flex;
-  gap: 12px;
+  /* display: flex; */
+  /* gap: 12px; */
 }
 
 .card-tag {
+  margin-right: 12px;
+  float: left;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
