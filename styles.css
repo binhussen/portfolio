@@ -200,7 +200,7 @@
 }
 
 .skills {
-  padding: 12px 24px;
+  padding: 12px 24px 120px;
 }
 
 .skill-header {
@@ -232,4 +232,68 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+}
+
+.contact-me {
+  padding: 120px 24px;
+}
+
+.contact-title {
+  font-family: "Inter";
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+fieldset {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input {
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 0 12px;
+}
+
+textarea {
+  border: none;
+  background: #fbf8f7;
+  font-family: "Inter";
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  padding: 12px;
+  height: 114px;
+}
+
+.submit {
+  width: fit-content;
+  align-self: center;
+}
+.footer {
+  padding: 15px 88px;
+}
+
+.footer-icons {
+  /* background: #505f79; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons > li {
+  padding: 10px;
 }
