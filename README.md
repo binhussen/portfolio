@@ -8,7 +8,7 @@ a portfolio resume that showcases examples of my works along with the usual resu
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/binhussen)
+[Live Demo Link](https://binhussen.github.io/portfolio/)
 
 ## Getting Started
 
@@ -17,16 +17,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - Browser
+- A version control like git
+- A text editor
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- First clone or download using the link [https://github.com/binhussen/portfolio](https://github.com/binhussen/portfolio).
+- Navigate to the folder using cd portfolio or GUI.
+- Open index.html your favorite browser.
+- Use your favorite text editor to make a changes on the page, add other content if necessary.
 
 ## Authors
 
@@ -35,6 +34,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@binhussen](https://github.com/binhussen)
 - Twitter: [@binhussens](https://twitter.com/binhussens)
 - LinkedIn: [Linkedin](https://www.linkedin.com/in/binhussen/)
+
+👤 Jonah Wambua (DJ MrJAY)
+
+- GitHub: [@githubhandle](https://github.com/DJ-MrJay)
+- Twitter: [@twitterhandle](https://twitter.com/jonah_wambua)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mr-jay/)
 
 ## 🤝 Contributing
 
