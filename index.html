@@ -360,15 +360,17 @@
             like to chat please get in touch.
           </h2>
           <form action="" class="form">
-            <fieldset><input name="fullName" type="text" placeholder="Full name" />
+            <fieldset><input name="fullName" type="text" placeholder="Full name" maxlength="30" required/>
               </fieldset>
-              <fieldset><input name="email" type="email" placeholder="Email address" />
+              <fieldset><input name="email" type="email" placeholder="Email address" required/>
                 </fieldset>
             <textarea
               name="message"
               id=""
               cols="30"
               rows="10"
+              maxlength="500"
+              required
             >Enter text here
             </textarea>
             <button type="submit" class="about-btn submit">Get in touch</button>
