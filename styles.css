@@ -4,6 +4,7 @@
   box-sizing: border-box;
   max-width: 100%;
   color: #fff;
+  font-family: "Inter", serif;
 }
 
 .header {
@@ -18,7 +19,6 @@
 
 .logo {
   font-family: "Roboto", serif;
-  font-weight: 700;
   font-size: 18px;
   text-decoration: none;
 }
@@ -28,12 +28,16 @@
   padding: 120px 24px;
 }
 
-.headline-primary {
+.primary-title {
   font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 56px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+}
+
+.text-content {
+  line-height: 24px;
 }
 
 .headline-supporting {
@@ -55,24 +59,18 @@
 }
 
 .works {
-  font-family: "Inter", serif;
-  font-weight: 400;
   padding: 120px 24px;
 }
 
 .works-title {
-  font-family: "Crete Round", serif;
-  font-weight: 400;
   font-size: 40px;
-  line-height: 52px;
   padding: 12px 0;
   margin-bottom: 24px;
   color: #1c1a19;
 }
 
 .avatar {
-  margin-top: 80px;
-  margin-bottom: 24px;
+  margin: 80px 0 24px;
 }
 
 .works-supporting {
@@ -83,17 +81,14 @@
 }
 
 .works-content {
-  font-size: 16px;
-  line-height: 24px;
   color: #091e42;
-  margin-bottom: 12px;
 }
 
 .tags {
   list-style-type: none;
   display: flex;
   gap: 12px;
-  margin-bottom: 12px;
+  margin: 12px 0;
 }
 
 .tag {
@@ -109,6 +104,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  letter-spacing: 0.03em;
   padding: 12px;
   background: #ff6b00;
 }
@@ -137,31 +133,10 @@
   line-height: 44px;
 }
 
-.card-detail {
-  line-height: 24px;
-}
-
-.card-tags {
-  list-style-type: none;
-  display: flex;
-  gap: 12px;
-}
-
 .card-tag {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
-}
-
-.btn-action {
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  color: #fff;
   border: none;
-  background: #ff6b00;
-  padding: 12px;
 }
 
 .about-skill {
@@ -174,29 +149,11 @@
 }
 
 .about-title {
-  font-family: "Crete Round", serif;
-  font-weight: 400;
   font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
 }
 
 .about-detail {
   margin: 24px 0;
-  font-family: "Inter", serif;
-  line-height: 24px;
-}
-
-.about-btn {
-  font-family: "Inter", serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  padding: 12px;
-  border: none;
-  background: #ff6b00;
-  letter-spacing: 0.03em;
 }
 
 .skills {
@@ -217,7 +174,6 @@
 
 .skill-title {
   font-family: "InaiMathi", serif;
-  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
@@ -228,8 +184,6 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  font-family: "Inter", serif;
-  font-weight: 400;
   font-size: 22px;
   line-height: 43px;
 }
@@ -239,7 +193,6 @@
 }
 
 .contact-title {
-  font-family: "Inter", serif;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
@@ -259,11 +212,9 @@ fieldset {
   border-right: none;
 }
 
-input {
+input,
+textarea {
   border: none;
-  font-family: "Inter", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   padding: 0 12px;
@@ -272,12 +223,7 @@ input {
 }
 
 textarea {
-  border: none;
   background: #fbf8f7;
-  font-family: "Inter", serif;
-  font-size: 15px;
-  line-height: 24px;
-  color: #3c3a39;
   padding: 12px;
   height: 114px;
 }
@@ -289,13 +235,4 @@ textarea {
 
 .footer {
   padding: 15px 88px;
-}
-
-.footer-icons {
-  display: flex;
-  align-items: center;
-}
-
-.footer-icons > li {
-  padding: 10px;
 }
