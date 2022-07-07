@@ -20,7 +20,6 @@
 a {
   text-decoration: none;
 }
-
 .logo {
   font-family: "Roboto", serif;
   font-size: 18px;
@@ -360,5 +359,25 @@ textarea {
   .card:hover .btn {
     width: auto;
     display: block;
+  }
+  .about {
+    background: url("./assets/images/bg/illustration-about-me.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 120px 142px 186px;
+  }
+
+  .about-detail {
+    width: 566px;
+  }
+
+  .skill {
+    display: flex;
+    gap: 164px;
+  }
+
+  .skill-detail {
+    align-items: flex-start;
+    padding: 12px 154px;
   }
 }
