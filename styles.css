@@ -24,6 +24,8 @@ a {
 .logo {
   font-family: "Roboto", serif;
   font-size: 18px;
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .headline {
@@ -40,6 +42,7 @@ a {
   letter-spacing: 0.37px;
   color: #ff6b00;
   line-height: 82px;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 
 .text-content {
@@ -77,6 +80,11 @@ a {
 
 .avatar {
   margin: 80px 0 24px;
+  transition-duration: 0.4s;
+}
+
+.avatar:hover {
+  transform: scale(0.95);
 }
 
 .works-supporting {
@@ -113,6 +121,11 @@ a {
   letter-spacing: 0.03em;
   padding: 12px;
   background: #ff6b00;
+}
+
+.btn:hover {
+  filter: grayscale();
+  transition: filter 1s;
 }
 
 .card-works {
@@ -217,6 +230,11 @@ a {
   flex-direction: column;
   gap: 24px;
   margin-top: 60px;
+}
+
+.form:hover {
+  transform: translate(10px);
+  transition-duration: 1s;
 }
 
 fieldset {
