@@ -8,7 +8,7 @@ a portfolio resume that showcases examples of my works along with the usual resu
 
 ## Live Demo
 
-[Live Demo Link](https://binhussen.github.io/portfolio/)
+[View Demo](https://binhussen.github.io/portfolio/)
 
 ## Getting Started
 
