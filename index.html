@@ -103,7 +103,7 @@
           <div class="works-stories">
             <img
               src="./assets/images/content/Img-Placeholder.svg"
-              alt="Img placeholder"
+              alt="Recent Works GYMFIT Multi-Post Stories image"
               class="avatar"
             />
             <div class="container">
@@ -241,7 +241,7 @@
           <div class="skill">
             <div>
               <div class="skill-header">
-                <img src="./assets/images/icons/Dimond.svg" alt="" />
+                <img src="./assets/images/icons/Dimond.svg" alt="Dimond" />
                 <h2 class="skill-title">Language</h2>
               </div>
               <ul class="skill-detail">
@@ -254,7 +254,10 @@
             </div>
             <div>
               <div class="skill-header">
-                <img src="./assets/images/icons/Rectangle.svg" alt="" />
+                <img
+                  src="./assets/images/icons/Rectangle.svg"
+                  alt="Rectangle"
+                />
                 <h2 class="skill-title">Frameworks</h2>
               </div>
               <ul class="skill-detail">
@@ -267,7 +270,7 @@
             </div>
             <div>
               <div class="skill-header">
-                <img src="./assets/images/icons/Circle.svg" alt="" />
+                <img src="./assets/images/icons/Circle.svg" alt="Circle" />
                 <h2 class="skill-title">Skills</h2>
               </div>
               <ul class="skill-detail">
@@ -292,7 +295,9 @@
           method="post"
         >
           <fieldset>
+            <label for="fullName">Full Name</label>
             <input
+              id="fullName"
               name="fullName"
               type="text"
               placeholder="Full name"
@@ -301,14 +306,18 @@
             />
           </fieldset>
           <fieldset>
+            <label for="email">Email</label>
             <input
+              id="email"
               name="email"
               type="email"
               placeholder="Email address"
               required
             />
           </fieldset>
+          <label for="message">Message</label>
           <textarea
+            id="message"
             name="message"
             rows="5"
             maxlength="500"
