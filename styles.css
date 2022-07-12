@@ -32,7 +32,8 @@ a {
   background: #1c1a19 url("./assets/images/bg/illustration-header-mobile.svg");
   background-position: bottom right;
   background-repeat: no-repeat;
-  padding: 0.75rem 1.5rem;
+  padding: 7.5rem 1.5rem;
+  background-size: 25%;
 }
 
 .primary-title {
@@ -137,8 +138,8 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  background: url("./assets/images/bg/card-bg.svg");
-  background-size: contain;
+  background: url(./assets/images/bg/card-bg.svg) no-repeat;
+  background-size: cover;
 }
 
 .card-content {
@@ -314,6 +315,7 @@ label {
     padding: 12rem 2.25rem;
     background: #1c1a19 url("./assets/images/bg/Illustration-header.svg") right;
     background-repeat: no-repeat;
+    background-size: 40%;
   }
 
   .side-links {
@@ -379,12 +381,18 @@ label {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
   .card-content {
     margin-top: 10.125rem;
   }
 
   .card:hover .card-content {
-    visibility: hidden;
+    display: none;
   }
 
   .card:hover .btn {
@@ -397,6 +405,7 @@ label {
     background-repeat: no-repeat;
     background-position: center right;
     padding: 7.5rem 8.875rem 11.625rem;
+    background-size: 40%;
   }
 
   .about-detail {
