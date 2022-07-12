@@ -259,6 +259,10 @@ textarea {
   height: 114px;
 }
 
+label {
+  display: none;
+}
+
 .submit {
   width: fit-content;
   align-self: center;
