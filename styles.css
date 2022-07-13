@@ -5,6 +5,7 @@
   max-width: 100%;
   color: #fff;
   font-family: "Inter", serif;
+  overflow: auto;
 }
 
 .header {
@@ -15,6 +16,7 @@
   background: #3c3a39;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 a {
