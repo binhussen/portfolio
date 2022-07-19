@@ -1,10 +1,12 @@
+/** @format */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
   color: #fff;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   overflow: auto;
 }
 
@@ -24,14 +26,33 @@ a {
 }
 
 .logo {
-  font-family: "Roboto", serif;
+  font-family: 'Roboto', serif;
   font-size: 1.125rem;
   transform: rotate(360deg);
   transition: 1s;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.bar {
+  width: 1rem;
+  border: 1px solid #acb7c3;
+  transition: 0.6s ease;
+}
+
 .headline {
-  background: #1c1a19 url("./assets/images/bg/illustration-header-mobile.svg");
+  background: #1c1a19 url('./assets/images/bg/illustration-header-mobile.svg');
   background-position: bottom right;
   background-repeat: no-repeat;
   padding: 7.5rem 1.5rem;
@@ -39,7 +60,7 @@ a {
 }
 
 .primary-title {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 3.5rem;
   letter-spacing: 0.023rem;
@@ -53,13 +74,13 @@ a {
 }
 
 .headline-supporting {
-  font-family: "Roboto", serif;
+  font-family: 'Roboto', serif;
   color: #fff5e1;
   padding: 0.75rem 0;
 }
 
 .headline-description {
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   padding-bottom: 0.75rem;
 }
 
@@ -91,7 +112,7 @@ a {
 }
 
 .works-supporting {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 2rem;
   line-height: 2.75rem;
   color: #091e42;
@@ -150,7 +171,7 @@ a {
 }
 
 .card-title {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 2.75rem;
@@ -167,7 +188,7 @@ a {
 }
 
 .about {
-  background: url("./assets/images/bg/illustration-about-me-mobile.svg");
+  background: url('./assets/images/bg/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   padding: 7.5rem 1.5rem 11.625rem;
@@ -202,7 +223,7 @@ a {
 }
 
 .skill-title {
-  font-family: "InaiMathi", serif;
+  font-family: 'InaiMathi', serif;
   font-size: 2rem;
   line-height: 2.75rem;
 }
@@ -283,6 +304,52 @@ label {
   .desktop {
     display: none;
   }
+
+  .logo.active {
+    visibility: hidden;
+    transition: 0s;
+  }
+
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    left: -100%;
+    gap: 0;
+    font-size: 32px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    mix-blend-mode: normal;
+    transition: 0.5s ease-in-out;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    margin-top: 20px;
+    background: #3c3a39;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .nav-menu.active .nav-item {
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff5e1;
+    border-bottom: 1px solid #6f6c6b;
+    padding: 1rem;
+    margin: 0 1.5rem;
+  }
+
+  .hamburger.active .bar:nth-of-type(1) {
+    transform: translateY(6.3px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-of-type(3) {
+    transform: translateY(-6.3px) rotate(-45deg);
+  }
 }
 
 @media (min-width: 768px) {
@@ -315,7 +382,7 @@ label {
     align-items: center;
     gap: 5.3rem;
     padding: 12rem 2.25rem;
-    background: #1c1a19 url("./assets/images/bg/Illustration-header.svg") right;
+    background: #1c1a19 url('./assets/images/bg/Illustration-header.svg') right;
     background-repeat: no-repeat;
     background-size: 40%;
   }
@@ -332,7 +399,7 @@ label {
   }
 
   .headline-supporting {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.75rem;
@@ -340,7 +407,7 @@ label {
   }
 
   .headline-description {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 1.25rem;
     line-height: 2rem;
     color: #f4f5f7;
@@ -403,7 +470,7 @@ label {
   }
 
   .about {
-    background: url("./assets/images/bg/illustration-about-me.svg");
+    background: url('./assets/images/bg/illustration-about-me.svg');
     background-repeat: no-repeat;
     background-position: center right;
     padding: 7.5rem 8.875rem 11.625rem;

@@ -4,7 +4,9 @@ a portfolio resume that showcases examples of my works along with the usual resu
 
 ## Built With
 
-- HTML and CSS
+- HTML
+- CSS
+- JS
 
 ## Live Demo
 
