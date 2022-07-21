@@ -295,6 +295,17 @@ a {
   margin-top: 3.75rem;
 }
 
+input:focus,
+textarea:focus {
+  border: 1px solid #dc3545;
+  outline: none;
+}
+
+input:valid {
+  border-bottom: 1px solid #3ac47d
+  ;
+}
+
 .form:hover {
   transform: translate(0.625rem);
   transition-duration: 1s;
@@ -311,7 +322,7 @@ textarea {
   border: none;
   font-size: 1rem;
   line-height: 1.5rem;
-  padding: 0 0.75rem;
+  padding: 0.5em;
   width: 100%;
   color: #3c3a39;
 }
