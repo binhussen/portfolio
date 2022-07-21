@@ -6,6 +6,9 @@ const hamburger = document.querySelector('.hamburger');
 const navItem = document.querySelectorAll('.nav-item');
 const modal = document.querySelector('.modal');
 const cards = document.querySelector('.card-works');
+const wrapper = document.querySelector('.wrapper');
+const overFlow = document.querySelector('*');
+
 
 const openMenu = () => {
   logo.classList.toggle('active');
@@ -123,6 +126,8 @@ const openModal = (i) => {
   );
 
   modal.classList.toggle('hidden');
+  wrapper.classList.toggle('blur');
+  overFlow.classList.toggle('scroll-off');
 
   modal.innerHTML = `
   <div class="modal-header">
@@ -199,6 +204,13 @@ document.addEventListener('DOMContentLoaded', () => {
   for (let i = 0; i < seeProject.length; i++) {
     seeProject[i].addEventListener('click', () => {
       openModal(i);
+      const cancel = document.querySelector('.cancel');
+      cancel.addEventListener('click', () => {
+        modal.classList.toggle('hidden');
+        wrapper.classList.toggle('blur');
+        overFlow.classList.toggle('scroll-off');
+      });
+
     });
   }
 });
