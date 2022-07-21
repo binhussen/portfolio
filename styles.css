@@ -359,6 +359,10 @@ label {
   overflow: hidden;
 }
 
+.space {
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   .desktop {
     display: none;

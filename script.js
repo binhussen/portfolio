@@ -141,7 +141,7 @@ const openModal = (i) => {
             alt="Recent Works GYMFIT Multi-Post Stories image"
             class="avatar modal-image"
           />
-          <div class="container">
+          <div class="container space">
             <p class="text-content works-content">
               ${projects[i].description}
             </p>
@@ -192,15 +192,13 @@ const showCards = (i) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 6; i++) {
-    showCards(i);
-  }
+  projects.forEach((ele, i) => {
+    if (i > 0) showCards(i);
+  });
 
   const seeProject = document.querySelectorAll('.see-project');
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < seeProject.length; i++) {
+  seeProject.forEach((project, i) => {
     seeProject[i].addEventListener('click', () => {
       openModal(i);
       const cancel = document.querySelector('.cancel');
@@ -210,5 +208,5 @@ document.addEventListener('DOMContentLoaded', () => {
         overFlow.classList.toggle('scroll-off');
       });
     });
-  }
+  });
 });
