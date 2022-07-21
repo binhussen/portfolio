@@ -295,28 +295,6 @@ a {
   margin-top: 3.75rem;
 }
 
-input:focus,
-textarea:focus {
-  border: 1px solid #dc3545;
-  outline: none;
-}
-
-input:valid {
-  border-bottom: 1px solid #3ac47d
-  ;
-}
-
-.form:hover {
-  transform: translate(0.625rem);
-  transition-duration: 1s;
-}
-
-fieldset {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
 input,
 textarea {
   border: none;
@@ -331,6 +309,28 @@ textarea {
   background: #fbf8f7;
   padding: 0.75rem;
   height: 7.125rem;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #dc3545;
+  outline: none;
+}
+
+input:valid,
+textarea:valid {
+  border-bottom: 1px solid #3ac47d;
+}
+
+.form:hover {
+  transform: translate(0.625rem);
+  transition-duration: 1s;
+}
+
+fieldset {
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 label {

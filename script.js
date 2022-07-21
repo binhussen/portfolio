@@ -218,7 +218,7 @@ submit.addEventListener('click', (event) => {
   const isLowerCase = (str) => str === str.toLowerCase();
   if (!isLowerCase(email)) {
     event.preventDefault();
-    error.innerHTML = 'Error has to be in lowercase!';
+    error.innerHTML = 'Email has to be in lowercase!';
     setTimeout(() => {
       error.innerHTML = '';
     }, 10000);
