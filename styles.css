@@ -113,7 +113,7 @@ a {
 }
 
 .modal-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -339,6 +339,10 @@ label {
   gap: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .desktop {
     display: none;
@@ -557,6 +561,7 @@ label {
   .submit {
     align-self: flex-start;
   }
+
   .modal {
     margin: 7rem 8.75rem;
     padding: 1.5rem;
@@ -566,6 +571,7 @@ label {
     background: #fff;
     z-index: 5;
   }
+
   .btns {
     gap: 1rem;
     justify-content: flex-start;
