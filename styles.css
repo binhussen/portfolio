@@ -102,6 +102,31 @@ a {
   color: #1c1a19;
 }
 
+.modal {
+  margin: 1rem;
+  padding: 0 1rem;
+  border: 1px solid #dfe1e6;
+  position: fixed;
+  top: 1px;
+  background: #fff;
+  z-index: 5;
+}
+
+.modal-title {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 1rem 0 2rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .avatar {
   margin: 5rem 0 1.5rem;
   transition-duration: 0.4s;
@@ -109,6 +134,10 @@ a {
 
 .avatar:hover {
   transform: scale(0.95);
+}
+
+.modal-image {
+  margin: 1rem 0;
 }
 
 .works-supporting {
@@ -150,6 +179,16 @@ a {
 .btn:hover {
   filter: grayscale();
   transition: filter 1s;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.btn-icon {
+  margin: 0 auto;
 }
 
 .card-works {
@@ -298,6 +337,30 @@ label {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.blur {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.842);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  user-select: none;
+}
+
+.scroll-off {
+  overflow: hidden;
+}
+
+.space {
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -517,5 +580,20 @@ label {
 
   .submit {
     align-self: flex-start;
+  }
+
+  .modal {
+    margin: 7rem 8.75rem;
+    padding: 1.5rem;
+    border: 1px solid #dfe1e6;
+    position: fixed;
+    top: 1px;
+    background: #fff;
+    z-index: 5;
+  }
+
+  .btns {
+    gap: 1rem;
+    justify-content: flex-start;
   }
 }
