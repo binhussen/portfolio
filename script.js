@@ -224,3 +224,10 @@ submit.addEventListener('click', (event) => {
     }, 10000);
   }
 });
+
+const data = { fullName: '', email: '', message: '' };
+
+if (!localStorage.getItem('Contact')) {
+  localStorage.setItem('Contact', JSON.stringify(data));
+}
+
