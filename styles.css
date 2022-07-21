@@ -295,6 +295,33 @@ a {
   margin-top: 3.75rem;
 }
 
+input,
+textarea {
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5em;
+  width: 100%;
+  color: #3c3a39;
+}
+
+textarea {
+  background: #fbf8f7;
+  padding: 0.75rem;
+  height: 7.125rem;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #dc3545;
+  outline: none;
+}
+
+input:valid,
+textarea:valid {
+  border-bottom: 1px solid #3ac47d;
+}
+
 .form:hover {
   transform: translate(0.625rem);
   transition-duration: 1s;
@@ -304,22 +331,6 @@ fieldset {
   border-top: none;
   border-left: none;
   border-right: none;
-}
-
-input,
-textarea {
-  border: none;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding: 0 0.75rem;
-  width: 100%;
-  color: #3c3a39;
-}
-
-textarea {
-  background: #fbf8f7;
-  padding: 0.75rem;
-  height: 7.125rem;
 }
 
 label {
@@ -361,6 +372,15 @@ label {
 
 .space {
   justify-content: space-between;
+}
+
+.error {
+  color: #ff3434;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 900;
+  margin: 0.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {

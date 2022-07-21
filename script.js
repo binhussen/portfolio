@@ -8,6 +8,7 @@ const modal = document.querySelector('.modal');
 const cards = document.querySelector('.card-works');
 const wrapper = document.querySelector('.wrapper');
 const overFlow = document.querySelector('*');
+const submit = document.querySelector('.submit');
 
 const openMenu = () => {
   logo.classList.toggle('active');
@@ -209,4 +210,17 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+});
+
+submit.addEventListener('click', (event) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error.innerHTML = 'Email has to be in lowercase!';
+    setTimeout(() => {
+      error.innerHTML = '';
+    }, 10000);
+  }
 });
