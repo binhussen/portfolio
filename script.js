@@ -5,7 +5,7 @@ const navMenu = document.querySelector('.nav-menu');
 const hamburger = document.querySelector('.hamburger');
 const navItem = document.querySelectorAll('.nav-item');
 const modal = document.querySelector('.modal');
-const seeProject = document.querySelectorAll('.see-project');
+const cards = document.querySelector('.card-works');
 
 const openMenu = () => {
   logo.classList.toggle('active');
@@ -42,6 +42,8 @@ const projects = [
     title: 'Multi-Post Stories',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Img-Placeholder.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took astandard dummy text.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -51,6 +53,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -60,6 +64,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -69,6 +75,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -78,6 +86,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -87,6 +97,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -96,6 +108,8 @@ const projects = [
     title: 'Professional Art Printing Data',
     technologies: ['html', 'css', 'ruby on rails'],
     imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
@@ -105,10 +119,11 @@ const projects = [
 
 const openModal = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag">${tec}</li>`,
+    (tec) => `<li class="tag">${tec}</li>`
   );
 
   modal.classList.toggle('hidden');
+
   modal.innerHTML = `
   <div class="modal-header">
           <h1 class="primary-title modal-title">${projects[i].title}</h1>
@@ -128,8 +143,8 @@ const openModal = (i) => {
             </p>
             <div class="btns">
               <a href=${
-  projects[i].seeLiveLink
-}><button type="button" class="btn">
+                projects[i].seeLiveLink
+              }><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
@@ -137,8 +152,8 @@ const openModal = (i) => {
                 /></button></a>
               </button>
              <a href=${
-  projects[i].seeSourceLink
-}><button type="button" class="btn">
+               projects[i].seeSourceLink
+             }><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
@@ -151,9 +166,39 @@ const openModal = (i) => {
   `;
 };
 
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < seeProject.length; i++) {
-  seeProject[i].addEventListener('click', () => {
-    openModal(i);
-  });
-}
+const showCards = (i) => {
+  const projectTechs = projects[i].technologies.map(
+    (tec) => `<li class="tag  card-tag">${tec}</li>`
+  );
+
+  cards.innerHTML += `<div class="card">
+            <div class="card-content">
+              <h2 class="card-title">${projects[i].title}</h2>
+              <p class="text-content">${projects[i].content}
+              </p>
+              <ul class="tags">
+                ${projectTechs.join('')}
+              </ul>
+            </div>
+
+            <button type="button" class="btn mobile see-project">
+              See Project
+            </button>
+          </div>`;
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < 6; i++) {
+    showCards(i);
+  }
+
+  const seeProject = document.querySelectorAll('.see-project');
+
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < seeProject.length; i++) {
+    seeProject[i].addEventListener('click', () => {
+      openModal(i);
+    });
+  }
+});
