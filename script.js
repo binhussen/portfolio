@@ -9,7 +9,6 @@ const cards = document.querySelector('.card-works');
 const wrapper = document.querySelector('.wrapper');
 const overFlow = document.querySelector('*');
 
-
 const openMenu = () => {
   logo.classList.toggle('active');
   navMenu.classList.remove('desktop');
@@ -122,7 +121,7 @@ const projects = [
 
 const openModal = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag">${tec}</li>`
+    (tec) => `<li class="tag">${tec}</li>`,
   );
 
   modal.classList.toggle('hidden');
@@ -148,8 +147,8 @@ const openModal = (i) => {
             </p>
             <div class="btns">
               <a href=${
-                projects[i].seeLiveLink
-              }><button type="button" class="btn">
+  projects[i].seeLiveLink
+}><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
@@ -157,8 +156,8 @@ const openModal = (i) => {
                 /></button></a>
               </button>
              <a href=${
-               projects[i].seeSourceLink
-             }><button type="button" class="btn">
+  projects[i].seeSourceLink
+}><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
@@ -173,7 +172,7 @@ const openModal = (i) => {
 
 const showCards = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag  card-tag">${tec}</li>`
+    (tec) => `<li class="tag  card-tag">${tec}</li>`,
   );
 
   cards.innerHTML += `<div class="card">
@@ -210,7 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
         wrapper.classList.toggle('blur');
         overFlow.classList.toggle('scroll-off');
       });
-
     });
   }
 });
