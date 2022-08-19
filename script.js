@@ -42,79 +42,87 @@ document.addEventListener('keydown', (e) => {
 
 const projects = [
   {
-    title: 'Multi-Post Stories',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Img-Placeholder.svg',
+    title: 'Inventory Management System',
+    technologies: ['Angular', 'dotNet Core'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/163703865-078cd82a-82d7-47b9-a729-418b3e4ee837.png',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      'It is an inventory management system for companies that provides an easy way to track requests, approval of requests , purchases, products, suppliers, customers, and distribution information.',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took astandard dummy text.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'It is an inventory management system for companies that provides an easy way to track requests, approval of requests , purchases, products, suppliers, customers, and distribution information.',
+    seeLiveLink: 'https://github.com/binhussen/inventory-management-system',
+    seeSourceLink: 'https://github.com/binhussen/inventory-management-system',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    title: 'Bin Tech',
+    technologies: ['html', 'css', 'Javascript'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/185614549-0b2b7d4e-99d6-4030-b924-3daf3f9a7123.png',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      'Bin Tech has been guiding young Ethiopians into the realm of tech entrepreneurship.',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'Bin Tech has been guiding young Ethiopians into the realm of tech entrepreneurship by providing technical and theoretical training courses on software development.',
+    seeLiveLink: 'https://binhussen.github.io/bin-tech/',
+    seeSourceLink: 'https://github.com/binhussen/bin-tech',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
-    content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    title: 'ToDo-list',
+    technologies: ['html', 'css', 'JavaScript'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/185615246-d1964a49-fe18-4c29-bc87-2eb5c42f1da2.png',
+    content: 'A to-do list is a tool that helps organize your day. ',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'A to-do list is a tool that helps organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+    seeLiveLink: 'https://binhussen.github.io/todo-list/',
+    seeSourceLink: 'https://github.com/binhussen/todo-list',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    title: 'Awesome Books',
+    technologies: ['html', 'css', 'JavaScript'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/185615791-1026b69c-d49b-4ccd-b61b-e9f2d505cf87.png',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      'Awesome Books is a basic website that allows users to add/remove books from a list.',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'Awesome Books is a basic website that allows users to add/remove books from a list. witch is done by using JavaScript objects,arrays and Local Storage.',
+    seeLiveLink: 'https://binhussen.github.io/awesome-books/',
+    seeSourceLink: 'https://github.com/binhussen/awesome-books',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    title: 'Restaurant Food Ordering and Delivery',
+    technologies: ['Android', 'Java', 'Firebase'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/156871994-fac0a47e-c3eb-4f73-bb2f-146466cfa6b7.jpg',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "An Android app for a restaurant's menu, ordering, and delivery with custom components and layouts.",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      "An Android app for a restaurant's menu, ordering, and delivery with custom components and layouts. designed based on the real-life scenario. which contains an online menu, a cart, a map, and payment.",
+    seeLiveLink:
+      'https://github.com/binhussen/restaurant-food-ordering-and-delivery-app',
+    seeSourceLink:
+      'https://github.com/binhussen/restaurant-food-ordering-and-delivery-app',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    title: 'Tour website',
+    technologies: ['html', 'css'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/185616870-55208c74-633c-4b43-8fa2-64a480f33ed3.png',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      'A travel website is a website that provides travel reviews, trip fares, or a combination of both.',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'A travel website is a website that provides travel reviews, trip fares, or a combination of both.',
+    seeLiveLink: 'https://binhussen.github.io/tour-website/',
+    seeSourceLink: 'https://github.com/binhussen/tour-website',
   },
   {
-    title: 'Professional Art Printing Data',
-    technologies: ['html', 'css', 'ruby on rails'],
-    imageURL: './assets/images/content/Snapshoot-Portfolio.svg',
+    title: 'Portfolio',
+    technologies: ['html', 'css', 'JavaScript'],
+    imageURL:
+      'https://user-images.githubusercontent.com/52010789/185617328-adf62734-5770-4261-939a-41a7b4eb4532.png',
     content:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      'This is my portfolio resume that showcases examples of my work along with the usual resume information about my work experience.',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      'This is my portfolio resume that showcases examples of my work along with the usual resume information about my work experience.',
     seeLiveLink: 'https://binhussen.github.io/portfolio/',
     seeSourceLink: 'https://github.com/binhussen/portfolio',
   },
@@ -122,7 +130,7 @@ const projects = [
 
 const openModal = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag">${tec}</li>`,
+    (tec) => `<li class="tag">${tec}</li>`
   );
 
   modal.classList.toggle('hidden');
@@ -148,8 +156,8 @@ const openModal = (i) => {
             </p>
             <div class="btns">
               <a href=${
-  projects[i].seeLiveLink
-}><button type="button" class="btn">
+                projects[i].seeLiveLink
+              }><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
@@ -157,8 +165,8 @@ const openModal = (i) => {
                 /></button></a>
               </button>
              <a href=${
-  projects[i].seeSourceLink
-}><button type="button" class="btn">
+               projects[i].seeSourceLink
+             }><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
@@ -173,7 +181,7 @@ const openModal = (i) => {
 
 const showCards = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag  card-tag">${tec}</li>`,
+    (tec) => `<li class="tag  card-tag">${tec}</li>`
   );
 
   cards.innerHTML += `<div class="card">
