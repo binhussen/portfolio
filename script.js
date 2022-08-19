@@ -130,7 +130,7 @@ const projects = [
 
 const openModal = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag">${tec}</li>`
+    (tec) => `<li class="tag">${tec}</li>`,
   );
 
   modal.classList.toggle('hidden');
@@ -156,8 +156,8 @@ const openModal = (i) => {
             </p>
             <div class="btns">
               <a href=${
-                projects[i].seeLiveLink
-              }><button type="button" class="btn">
+  projects[i].seeLiveLink
+}><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
@@ -165,8 +165,8 @@ const openModal = (i) => {
                 /></button></a>
               </button>
              <a href=${
-               projects[i].seeSourceLink
-             }><button type="button" class="btn">
+  projects[i].seeSourceLink
+}><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
@@ -181,7 +181,7 @@ const openModal = (i) => {
 
 const showCards = (i) => {
   const projectTechs = projects[i].technologies.map(
-    (tec) => `<li class="tag  card-tag">${tec}</li>`
+    (tec) => `<li class="tag  card-tag">${tec}</li>`,
   );
 
   cards.innerHTML += `<div class="card">
@@ -218,6 +218,12 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // const card = document.querySelectorAll('.card');
+  // document.querySelector('.avatar').src = projects[0].imageURL;
+  // card.forEach((element, i) => {
+  //   element.style.backgroundImage = `url(${projects[i + 1].imageURL})`;
+  // });
 });
 
 submit.addEventListener('click', (event) => {
