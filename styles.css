@@ -200,7 +200,8 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  background: url(./assets/images/bg/card-bg.svg) no-repeat;
+  background: url(./assets/images/bg/card-bg.svg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
