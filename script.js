@@ -42,10 +42,82 @@ document.addEventListener('keydown', (e) => {
 
 const projects = [
   {
+    title: 'Countries weather',
+    technologies: ['React', 'Redux', 'Tailwind'],
+    imageURL: [
+      './assets/images/content/country-info.png',
+      './assets/images/content/country-info.png',
+    ],
+    content:
+      'Countries weather is a webapp that will be working with the real live data from the rest countries api and open weather api. The application will allow users to get detail information of the country and weather.',
+    description:
+      'Countries weather is a webapp that will be working with the real live data from the rest countries api and open weather api. The application will allow users to get detail information of the country and weather.The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+    seeLiveLink: 'https://country-weathers.netlify.app/',
+    seeSourceLink: 'https://github.com/binhussen/country-info',
+  },
+  {
+    title: 'Book Store',
+    technologies: ['React', 'Redux', 'Tailwind'],
+    imageURL: [
+      './assets/images/content/book-store.png',
+      './assets/images/content/book_store.png',
+    ],
+    content:
+      'The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+    description:
+      'The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+    seeLiveLink: 'https://binhussen.github.io/book-store/',
+    seeSourceLink: 'https://github.com/binhussen/book-store',
+  },
+  {
+    title: 'Foodie',
+    technologies: ['javascript', 'html', 'css'],
+    imageURL: [
+      './assets/images/content/foodie.png',
+      './assets/images/content/foodie_.png',
+    ],
+    content:
+      'This is a webiste that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
+    description:
+      'This is a webiste that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
+    seeLiveLink: 'https://binhussen.github.io/foodie/',
+    seeSourceLink: 'https://github.com/binhussen/foodie',
+  },
+  {
+    title: 'Space Travelers Hub',
+    technologies: ['React', 'Redux', 'Tailwind'],
+    imageURL: [
+      './assets/images/content/space-hub.png',
+      './assets/images/content/space_hub.png',
+    ],
+    content:
+      'Space Travelers Hub is a website that will be working with the real live data from the SpaceX API for a company that provides commercial and scientific space travel services.',
+    description:
+      'Space Travelers Hub is a website that will be working with the real live data from the SpaceX API for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    seeLiveLink: 'https://spaces-hub.netlify.app/',
+    seeSourceLink: 'https://github.com/binhussen/space-travelers-hub',
+  },
+  {
+    title: 'Bin Tech',
+    technologies: ['javascript', 'html', 'css'],
+    imageURL: [
+      './assets/images/content/bin-tech.png',
+      './assets/images/content/bin_tech.png',
+    ],
+    content:
+      'Bin-Tech is a nationwide innovation competition, Bin-tech has been guiding young Ethiopians into the realm of tech entrepreneurship by providing technical and theoretical training courses on Software Development.',
+    description:
+      'Bin-Tech is a nationwide innovation competition, Bin-tech has been guiding young Ethiopians into the realm of tech entrepreneurship by providing technical and theoretical training courses on Software Development.',
+    seeLiveLink: 'https://binhussen.github.io/bin-tech/',
+    seeSourceLink: 'https://github.com/binhussen/bin-tech',
+  },
+  {
     title: 'Inventory Management System',
-    technologies: ['Angular', 'dotNet Core'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/163703865-078cd82a-82d7-47b9-a729-418b3e4ee837.png',
+    technologies: ['Angular', 'Angular Material', 'DotNet Core'],
+    imageURL: [
+      './assets/images/content/inventory-.png',
+      './assets/images/content/inventory_.png',
+    ],
     content:
       'It is an inventory management system for companies that provides an easy way to track requests, approval of requests , purchases, products, suppliers, customers, and distribution information.',
     description:
@@ -54,77 +126,18 @@ const projects = [
     seeSourceLink: 'https://github.com/binhussen/inventory-management-system',
   },
   {
-    title: 'Bin Tech',
-    technologies: ['html', 'css', 'Javascript'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/185614549-0b2b7d4e-99d6-4030-b924-3daf3f9a7123.png',
+    title: 'Leader Board',
+    technologies: ['javascript', 'html', 'css'],
+    imageURL: [
+      './assets/images/content/leader-board.png',
+      './assets/images/content/leader_board.png',
+    ],
     content:
-      'Bin Tech has been guiding young Ethiopians into the realm of tech entrepreneurship.',
+      'Leaderboard is a list app that displays scores which has been submitted by different players, It also allows you to submit your score.',
     description:
-      'Bin Tech has been guiding young Ethiopians into the realm of tech entrepreneurship by providing technical and theoretical training courses on software development.',
-    seeLiveLink: 'https://binhussen.github.io/bin-tech/',
-    seeSourceLink: 'https://github.com/binhussen/bin-tech',
-  },
-  {
-    title: 'ToDo-list',
-    technologies: ['html', 'css', 'JavaScript'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/185615246-d1964a49-fe18-4c29-bc87-2eb5c42f1da2.png',
-    content: 'A to-do list is a tool that helps organize your day. ',
-    description:
-      'A to-do list is a tool that helps organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
-    seeLiveLink: 'https://binhussen.github.io/todo-list/',
-    seeSourceLink: 'https://github.com/binhussen/todo-list',
-  },
-  {
-    title: 'Awesome Books',
-    technologies: ['html', 'css', 'JavaScript'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/185615791-1026b69c-d49b-4ccd-b61b-e9f2d505cf87.png',
-    content:
-      'Awesome Books is a basic website that allows users to add/remove books from a list.',
-    description:
-      'Awesome Books is a basic website that allows users to add/remove books from a list. witch is done by using JavaScript objects,arrays and Local Storage.',
-    seeLiveLink: 'https://binhussen.github.io/awesome-books/',
-    seeSourceLink: 'https://github.com/binhussen/awesome-books',
-  },
-  {
-    title: 'Restaurant Food Ordering and Delivery',
-    technologies: ['Android', 'Java', 'Firebase'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/156871994-fac0a47e-c3eb-4f73-bb2f-146466cfa6b7.jpg',
-    content:
-      "An Android app for a restaurant's menu, ordering, and delivery with custom components and layouts.",
-    description:
-      "An Android app for a restaurant's menu, ordering, and delivery with custom components and layouts. designed based on the real-life scenario. which contains an online menu, a cart, a map, and payment.",
-    seeLiveLink:
-      'https://github.com/binhussen/restaurant-food-ordering-and-delivery-app',
-    seeSourceLink:
-      'https://github.com/binhussen/restaurant-food-ordering-and-delivery-app',
-  },
-  {
-    title: 'Tour website',
-    technologies: ['html', 'css'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/185616870-55208c74-633c-4b43-8fa2-64a480f33ed3.png',
-    content:
-      'A travel website is a website that provides travel reviews, trip fares, or a combination of both.',
-    description:
-      'A travel website is a website that provides travel reviews, trip fares, or a combination of both.',
-    seeLiveLink: 'https://binhussen.github.io/tour-website/',
-    seeSourceLink: 'https://github.com/binhussen/tour-website',
-  },
-  {
-    title: 'Portfolio',
-    technologies: ['html', 'css', 'JavaScript'],
-    imageURL:
-      'https://user-images.githubusercontent.com/52010789/185617328-adf62734-5770-4261-939a-41a7b4eb4532.png',
-    content:
-      'This is my portfolio resume that showcases examples of my work along with the usual resume information about my work experience.',
-    description:
-      'This is my portfolio resume that showcases examples of my work along with the usual resume information about my work experience.',
-    seeLiveLink: 'https://binhussen.github.io/portfolio/',
-    seeSourceLink: 'https://github.com/binhussen/portfolio',
+      'Leaderboard is a list app that displays scores which has been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service. developed using webpack and ES6 features(modules, async and await).',
+    seeLiveLink: 'https://binhussen.github.io/leaderboard/',
+    seeSourceLink: 'https://github.com/binhussen/leaderboard',
   },
 ];
 
@@ -146,7 +159,7 @@ const openModal = (i) => {
         </ul>
         <div class="works-stories">
           <img
-            src=${projects[i].imageURL}
+            src=${projects[i].imageURL[1]}
             alt="Recent Works GYMFIT Multi-Post Stories image"
             class="avatar modal-image"
           />
@@ -193,7 +206,6 @@ const showCards = (i) => {
                 ${projectTechs.join('')}
               </ul>
             </div>
-
             <button type="button" class="btn mobile see-project">
               See Project
             </button>
@@ -219,11 +231,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // const card = document.querySelectorAll('.card');
-  // document.querySelector('.avatar').src = projects[0].imageURL;
-  // card.forEach((element, i) => {
-  //   element.style.backgroundImage = `url(${projects[i + 1].imageURL})`;
-  // });
+  const card = document.querySelectorAll('.card');
+  document.querySelector('.avatar').src = projects[0].imageURL.at(0);
+  card.forEach((element, i) => {
+    element.style.backgroundImage = `url(${projects[i + 1].imageURL[0]})`;
+  });
 });
 
 submit.addEventListener('click', (event) => {

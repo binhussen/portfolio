@@ -133,7 +133,7 @@ a {
 }
 
 .avatar:hover {
-  transform: scale(0.95);
+  transform: scale(0.99);
 }
 
 .modal-image {
@@ -511,6 +511,7 @@ label {
   .works-stories {
     display: flex;
     gap: 1.5rem;
+    justify-content: center;
   }
 
   .works-supporting {
