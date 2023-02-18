@@ -10,6 +10,16 @@
   overflow: auto;
 }
 
+.nav-active:hover {
+  color: #3666;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+.icon-active:hover {
+  transform: translateY(2px);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
