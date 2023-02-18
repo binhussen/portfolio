@@ -169,7 +169,7 @@ const openModal = (i) => {
             </p>
             <div class="btns">
               <a href=${projects[i].seeLiveLink
-    }><button type="button" class="btn">
+}><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
@@ -177,7 +177,7 @@ const openModal = (i) => {
                 /></button></a>
               </button>
              <a href=${projects[i].seeSourceLink
-    }><button type="button" class="btn">
+}><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
