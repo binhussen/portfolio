@@ -49,9 +49,9 @@ const projects = [
       './assets/images/content/country-info.png',
     ],
     content:
-      'Countries weather is a webapp that will be working with the real live data from the rest countries api and open weather api. The application will allow users to get detail information of the country and weather.',
+      'Countries weather is a web app that will be working with the actual live data from the rest countries API and open weather API. The application will allow users to get detail information about the country and weather.',
     description:
-      'Countries weather is a webapp that will be working with the real live data from the rest countries api and open weather api. The application will allow users to get detail information of the country and weather.The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+      'Countries weather is a web app that will be working with the actual live data from the rest countries API and open weather API. The application will allow users to get detail information about the country and weather. The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book, and follow your progress. built with React.js',
     seeLiveLink: 'https://country-weathers.netlify.app/',
     seeSourceLink: 'https://github.com/binhussen/country-info',
   },
@@ -63,9 +63,9 @@ const projects = [
       './assets/images/content/book_store.png',
     ],
     content:
-      'The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+      'Bookstore is a website that allows you to display a list of books, add a book, remove a selected book, and follow your progress. built with React.js',
     description:
-      'The Bookstore is a website that allows you to Display a list of books, Add a book, Remove a selected book and follow your progress. built with React.js',
+      'Bookstore is a website that allows you to display a list of books, add a book, remove a selected book, and follow your progress. built with React.js',
     seeLiveLink: 'https://binhussen.github.io/book-store/',
     seeSourceLink: 'https://github.com/binhussen/book-store',
   },
@@ -77,9 +77,9 @@ const projects = [
       './assets/images/content/foodie_.png',
     ],
     content:
-      'This is a webiste that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
+      'This is a website that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
     description:
-      'This is a webiste that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
+      'This is a website that lists meals with the option to checkout the recipe and to give a thumbs up if you like it. Its built on the mealDb API, an external API to display data about each meal.',
     seeLiveLink: 'https://binhussen.github.io/foodie/',
     seeSourceLink: 'https://github.com/binhussen/foodie',
   },
@@ -91,9 +91,9 @@ const projects = [
       './assets/images/content/space_hub.png',
     ],
     content:
-      'Space Travelers Hub is a website that will be working with the real live data from the SpaceX API for a company that provides commercial and scientific space travel services.',
+      'Space Travelers Hub is a website that will be working with real live data from the SpaceX API for a company that provides commercial and scientific space travel services',
     description:
-      'Space Travelers Hub is a website that will be working with the real live data from the SpaceX API for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+      'Space Travelers Hub is a website that will be working with real live data from the SpaceX API for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
     seeLiveLink: 'https://spaces-hub.netlify.app/',
     seeSourceLink: 'https://github.com/binhussen/space-travelers-hub',
   },
@@ -119,9 +119,9 @@ const projects = [
       './assets/images/content/inventory_.png',
     ],
     content:
-      'It is an inventory management system for companies that provides an easy way to track requests, approval of requests , purchases, products, suppliers, customers, and distribution information.',
+      'It is an inventory management system for companies that provides an easy way to track requests, approval of proposals, purchases, products, suppliers, customers, and distribution information.',
     description:
-      'It is an inventory management system for companies that provides an easy way to track requests, approval of requests , purchases, products, suppliers, customers, and distribution information.',
+      'It is an inventory management system for companies that provides an easy way to track requests, approval of proposals, purchases, products, suppliers, customers, and distribution information.',
     seeLiveLink: 'https://github.com/binhussen/inventory-management-system',
     seeSourceLink: 'https://github.com/binhussen/inventory-management-system',
   },
@@ -133,9 +133,9 @@ const projects = [
       './assets/images/content/leader_board.png',
     ],
     content:
-      'Leaderboard is a list app that displays scores which has been submitted by different players, It also allows you to submit your score.',
+      'Leaderboard is a list app that displays scores that have been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service.',
     description:
-      'Leaderboard is a list app that displays scores which has been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service. developed using webpack and ES6 features(modules, async and await).',
+      'Leaderboard is a list app that displays scores that have been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service. developed using webpack and ES6 features(modules, async and await).',
     seeLiveLink: 'https://binhussen.github.io/leaderboard/',
     seeSourceLink: 'https://github.com/binhussen/leaderboard',
   },
@@ -168,18 +168,16 @@ const openModal = (i) => {
               ${projects[i].description}
             </p>
             <div class="btns">
-              <a href=${
-  projects[i].seeLiveLink
-}><button type="button" class="btn">
+              <a href=${projects[i].seeLiveLink
+    }><button type="button" class="btn">
                 See Live
                 <img
                   class="btn-icon"
                   src="./assets/images/icons/Icon-power.svg"
                 /></button></a>
               </button>
-             <a href=${
-  projects[i].seeSourceLink
-}><button type="button" class="btn">
+             <a href=${projects[i].seeSourceLink
+    }><button type="button" class="btn">
                 See Source
                 <img
                   class="btn-icon"
